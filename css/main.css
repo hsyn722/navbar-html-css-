@@ -13,6 +13,7 @@ a{
 html{
     font-family: "open sans",sans-serif;
 }
+/*  navbar section  */
 #navbar{
     color: #fff;
     display: flex;
@@ -34,4 +35,42 @@ html{
     background: #336ea2;
     border-radius: 4px;
 
+}
+
+
+
+
+
+/*  home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+#home .name h2{
+    margin-bottom: 10px;
+}
+#home .name p{
+    opacity: 0.6;
+    
+}
+#home a {
+    background: #336ea2;
+    padding: 0.6rem;
+    margin-top: 0.75rem;
+    border-radius: 7px;
+    
+}
+#home a:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 1px solid #336ea2;
 }
